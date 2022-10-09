@@ -1,0 +1,39 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.logo{
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	background-color: antiquewhite;
+}
+.navbar{
+	display: flex;
+	align-items: center;
+	padding: 20px;
+}
+nav{
+	flex: 1;
+	text-align: right;
+}nav ul{
+	display: inline-block;
+	list-style-type: none;
+}
+nav ul li{
+	display: inline-block;
+	margin-right: 20px;
+}
+a{
+	text-decoration: none;
+	color: antiquewhite;
+}
+.container{
+	max-width: 1280px;
+	margin: auto;
+    padding-left: 25px;
+	padding-right: 25px;
+	background-color: darkred;
+	font-size: 20px;
+}
